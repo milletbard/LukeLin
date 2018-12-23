@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Img from "./img/LukeLin.JPG";
+import styled from "styled-components";
 
 class Aboutme extends Component {
   componentDidMount() {
@@ -12,7 +13,12 @@ class Aboutme extends Component {
 
   render() {
    
-
+    const A = styled.a`
+    margin-top:20px;
+    :hover {
+      text-decoration: none;
+    }
+  `;
     return (
       <section id="About" className="section has-text-centered">
         <div data-aos="fade-up">
@@ -22,13 +28,14 @@ class Aboutme extends Component {
               
             >
               <div className="column">
-                <figure className="image is-480x480">
-                  <img className="is-rounded" alt="" src={Img} />
+
+                <figure className="image is-480x480" >
+                  <img  data-aos="zoom-in" className="aos-init aos-animate is-rounded" alt="" src={Img} />
                 </figure>
               </div>
 
-              <div className="column">
-                <h1 data-aos="zoom-in" className="title aos-init aos-animate">
+              <div className="column data-aos-anchor"  data-aos="zoom-in">
+                <h1 className="title ">
                   <span>About me</span>
                 </h1>
                 <p>
@@ -40,7 +47,23 @@ class Aboutme extends Component {
                 <p>
                   役畢
                 </p>
-               
+                
+                <A  data-aos="zoom-in-left"
+                href="mailto:milletbard@gmail.com"
+                rel="noopener noreferrer"
+                className="button is-primary is-rounded is-medium hvr-grow"
+              >
+                <span>
+                  Hire me{/* */}
+                  <span
+                    style={{ fontSize: "undefinedrem" }}
+                    role="img"
+                    aria-label="emoji"
+                  >
+                    🤝
+                  </span>
+                </span>
+              </A>
               </div>
             </div>
           </div>

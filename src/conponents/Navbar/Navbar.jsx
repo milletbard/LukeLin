@@ -27,7 +27,7 @@ const Div = styled.div`
     <div id="Navbar">
     
       <nav
-        className="navbar level is-transparent is-fixed-top"
+        className="navbar  is-transparent is-fixed-top"
         style={{ backgroundColor: "#000" }}
       >
       
@@ -62,24 +62,7 @@ const Div = styled.div`
         </div>
        
 
-
-
-        <A  data-aos="zoom-in-left"
-                href="mailto:milletbard@gmail.com"
-                rel="noopener noreferrer"
-                className="button is-primary is-rounded is-medium hvr-grow"
-              >
-                <span>
-                  Hire me{/* */}
-                  <span
-                    style={{ fontSize: "undefinedrem" }}
-                    role="img"
-                    aria-label="emoji"
-                  >
-                    🤝
-                  </span>
-                </span>
-              </A>
+       
       </nav>
 
     

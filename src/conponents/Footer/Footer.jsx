@@ -7,7 +7,7 @@ import Img from "./Img/Footer.jpg";
 class Social extends Component {
   componentDidMount() {
     AOS.init({
-      duration: 1000
+      duration: 300
     });
   }
   render() {
@@ -17,19 +17,22 @@ class Social extends Component {
       background-attachment: fixed;
       background-size: cover;
       background-position: center center;
-      padding:50px;
+      padding: 50px;
     `;
     const A = styled.a`
-    margin:10px;
+      margin: 10px;
     `;
+
+   
     return (
       <Div>
         <section
+          data-aos="fade-up"
           id="Content"
           className="section has-text-centered"
           style={{ backgroundImage: { Img } }}
         >
-          <div data-aos="fade-up" className="container aos-init aos-animate">
+          <div className="container aos-init aos-animate">
             <h1 data-aos="zoom-in" className="title aos-init aos-animate">
               <span className="text-white">Let's get social</span>
             </h1>
@@ -75,7 +78,7 @@ class Social extends Component {
               >
                 reactjs
               </A>
-            +
+              +
               <A
                 href="https://michalsnik.github.io/aos/"
                 target="_blank"
@@ -91,7 +94,7 @@ class Social extends Component {
               >
                 bulmsa
               </A>
-             +
+              +
               <A
                 href="https://www.styled-components.com/"
                 target="_blank"
@@ -100,18 +103,19 @@ class Social extends Component {
                 styled-components
               </A>
               <br />
-              Source code on 
+              Source code on
               <A
                 href="https://github.com/milletbard/LukeLin/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-               Github
+                Github
               </A>
-              
             </p>
           </div>
         </footer>
+
+     
       </Div>
     );
   }
