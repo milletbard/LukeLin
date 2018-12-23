@@ -99,7 +99,15 @@ class Social extends Component {
               >
                 styled-components
               </A>
-             
+              <br />
+              Source code on 
+              <A
+                href="https://github.com/milletbard/LukeLin/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+               Github
+              </A>
               
             </p>
           </div>

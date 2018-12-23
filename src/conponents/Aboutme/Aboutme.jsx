@@ -18,8 +18,8 @@ class Aboutme extends Component {
         <div data-aos="fade-up">
           <div data-aos="fade-up" className="container aos-init aos-animate">
             <div
-              className="columns is-desktop"
-              style={{ alignItems: "center" }}
+              className="columns  is-vcentered"
+              
             >
               <div className="column">
                 <figure className="image is-480x480">

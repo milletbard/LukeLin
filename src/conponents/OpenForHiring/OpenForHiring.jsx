@@ -11,25 +11,29 @@ class OpenForJiring extends Component {
 
   render() {
     return (
-      <div id="Skills" className="container " data-aos="fade-up" style={{marginTop:'-65px'}}>
-        <div className="box columns is-mobile content has-text-centered">
-          <div className="column">
+      <div id="Skills" className="container  " data-aos="fade-up" style={{marginTop:'-65px'}}>
+
+
+
+        <div className="box columns is-desktop content  has-text-centered 	 is-vcentered" >
+          <div className="column  ">
             <h2 className="title is-2">Open For Hiring</h2>
           </div>
+
           <div className="column ">
-          <p>
-            
+          <p >
                Interested on working together ? I am currently looking for a new
                practical training opportunity so tell me more about your project and let's start to
                build something great together.
              </p>
              </div>
-          <div className="column">
+
+          <div className="column ">
           <a
               style={{ textDecoration: "none" }}
               href="mailto:milletbard@gmail.com"
               rel="noopener noreferrer"
-              className="text-center button is-primary is-rounded is-medium hvr-grow"
+              className="button is-primary is-rounded is-medium hvr-grow"
             >
               <span>
                 Let's Do it{/* */}
@@ -42,6 +46,7 @@ class OpenForJiring extends Component {
                 </span>
               </span>
             </a>
+            
           </div>
         </div>
       </div>

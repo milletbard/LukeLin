@@ -17,7 +17,8 @@ class Skills extends Component {
     return (
       <section className="section">
         <div className="container">
-          <div className="columns" style={{ alignItems: "center" }}>
+
+          <div className="columns  is-vcentered">
             <div
               data-aos="zoom-in-right"
               className="column aos-init aos-animate"
