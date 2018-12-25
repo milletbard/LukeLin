@@ -11,21 +11,21 @@ class OpenForJiring extends Component {
 
   render() {
     return (
-      <div id="Skills" className="container  " data-aos="fade-up" style={{marginTop:'-65px'}}>
+      <div  className="container  " data-aos="fade-up" style={{marginTop:'-95px'}}>
 
-
-
-        <div className="box columns is-desktop content  has-text-centered 	 is-vcentered" >
+        <div className="box columns is-desktop content  has-text-centered	 is-vcentered" >
           <div className="column  ">
-            <h2 className="title is-2">Open For Hiring</h2>
+            <h2 className="title is-1">Open For Hiring</h2>
           </div>
 
           <div className="column ">
-          <p >
+          <p className="title is-5">
                Interested on working together ? I am currently looking for a new
                practical training opportunity so tell me more about your project and let's start to
                build something great together.
              </p>
+        
+
              </div>
 
           <div className="column ">

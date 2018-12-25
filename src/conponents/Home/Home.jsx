@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import mainBGC from "./Img/Home.jpg"
+// import mainBGC from "./Img/rsz_home.jpg"
+import mainBGC from "./Img/Home2.jpg"
 
 const Home = () => {
     const A = styled.a`
@@ -15,7 +16,7 @@ const Home = () => {
     background-position: center center;
   `;
     return(
-        <Header>
+        <Header id="Home">
         <section className="hero is-fullheight">
           <div className="hero-body">
             <div className="container" style={{marginTop:'-100px'}}>

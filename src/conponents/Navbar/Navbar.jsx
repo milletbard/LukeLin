@@ -32,26 +32,34 @@ const Div = styled.div`
       >
       
         <div className="navbar-brand ">
-          <a href="/">
+          <a href="#Home"
+       >
             <img src={mainLogo} alt="" width={40} height={40} />
           </a>
         </div>
         
         <Div  className={assignedMenuClasses.join(" ")}>
           {/* <div  className=" navbar-menu is-active"> */}
-              <A href="#Skills" className="navbar-item text-white hvr-grow">
-                Skills
+              <A href="#Skills" className="navbar-item text-white hvr-grow"
+                style={{ backgroundColor: "#000" }}>
+                SKILLS
               </A>
-              <A href="#About" className="navbar-item text-white hvr-grow ">
-                About
+              <A href="#About" className="navbar-item text-white hvr-grow "
+                style={{ backgroundColor: "#000" }}>
+                ABOUT
               </A>
-              <A href="#About" className="navbar-item text-white hvr-grow ">
-                Content
+              <A 
+              href="https://github.com/milletbard"
+              className="navbar-item text-white hvr-grow "
+              style={{ backgroundColor: "#000" }}
+              target="_blank"
+              rel="noopener noreferrer">
+                GITHUB
               </A>
         </Div>
 
 
-        <div
+        <div 
           onClick={e => props.clicked(e)}
           className={assignedBurgerClasses.join(" ")}
           data-target="navbarExampleTransparentExample"

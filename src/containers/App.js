@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../conponents/Navbar/Navbar";
 import Home from "../conponents/Home/Home";
-import OpenForHiring from "../conponents/OpenForHiring/OpenForHiring";
 import Skills from "../conponents/Skills/Skills";
 import Aboutme from "../conponents/Aboutme/Aboutme";
 import Footer from "../conponents/Footer/Footer";
@@ -31,7 +30,6 @@ class App extends Component {
           showBurger={this.state.showBurger}
         />
         <Home />
-        <OpenForHiring />
         <Skills />
         <Aboutme />
         <Footer />

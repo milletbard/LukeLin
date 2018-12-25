@@ -92,7 +92,7 @@ class Social extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                bulmsa
+                bulma
               </A>
               +
               <A
